@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/employeename"
+        android:paddingLeft="15dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/employeeemail"
+        android:paddingLeft="15dp"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:id="@+id/employeepassword"
+        android:hint="password"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:id="@+id/employeecnfpassword"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="company"
+        android:id="@+id/company"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="role"
+        android:id="@+id/role"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emplyee ID"
+        android:id="@+id/employid"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textregisterborder"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+
+
+    
+
+</LinearLayout>
